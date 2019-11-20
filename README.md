@@ -1,12 +1,12 @@
-# Sample_Package
-A sample package repository used in the Package Manager.
+# Extended String Library
+An extended string library that can be access via the ScriptersCF Package Manager.
 
-#### Usage:
+#### Example:
 ```lua
 local require = require(game.ReplicatedStorage:WaitForChild("PackageManager").Load)
-local Sample = require("sample")
+local string = require("string")
 
-Sample.Print("Hello, world!")
+string.capitalize("hello, world!")
 ```
 
 ` > Hello, world!`
