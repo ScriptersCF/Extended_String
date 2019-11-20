@@ -38,5 +38,5 @@
     "endswith": {
         "Usage": "string.endswith(a, b)",
         "Description": "Returns true/false depending on whether string 'a' ends with substring 'b'"
-    },
+    }
 }
