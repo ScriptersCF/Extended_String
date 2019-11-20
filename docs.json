@@ -1,0 +1,42 @@
+{
+    "capitalize": {
+        "Usage": "string.capitalize(str)",
+        "Description": "Sets the first character of the given string to uppercase and the rest to lowercase."
+    },
+    "title": {
+        "Usage": "string.title(str)",
+        "Description": "Sets the first character of each word in a given string to uppercase and the rest to lowercase."
+    },
+    "isascii": {
+        "Usage": "string.isascii(str)",
+        "Description": "Returns true/false depending on whether the string only contains characters from the ASCII character set."
+    },
+    "isalpha": {
+        "Usage": "string.isalpha(str)",
+        "Description": "Returns true/false depending on whether the string only contains characters in the alphabet."
+    },
+    "isalnum": {
+        "Usage": "string.isalnum(str)",
+        "Description": "Returns true/false depending on whether the string only contains alphanumeric characters."
+    },
+    "isdigit": {
+        "Usage": "string.isdigit(str)",
+        "Description": "Returns true/false depending on whether the string only contains digits."
+    },
+    "islower": {
+        "Usage": "string.islower(str)",
+        "Description": "Returns true/false depending on whether the string is only lowercase."
+    },
+    "isupper": {
+        "Usage": "string.isupper(str)",
+        "Description": "Returns true/false depending on whether the string is only uppercase."
+    },
+    "startswith": {
+        "Usage": "string.startswith(a, b)",
+        "Description": "Returns true/false depending on whether string 'a' starts with substring 'b'"
+    },
+    "endswith": {
+        "Usage": "string.endswith(a, b)",
+        "Description": "Returns true/false depending on whether string 'a' ends with substring 'b'"
+    },
+}
