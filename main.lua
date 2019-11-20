@@ -1,7 +1,14 @@
--- The module that is accessed when `require("sample")` is used.
+local Funcs = script.Parent:WaitForChild("funcs")
 
-local Scripts = script.Parent:WaitForChild("Scripts")
+local function GetLib()
+	local String = {}
+	for i, v in pairs(string) do
+		String[i] = v
+	end
+	for i, v in pairs(Funcs:GetChildren()) do
+		String[v.Name] = require(v)
+	end
+	return String
+end
 
-return {
-    Print = require(Scripts.Print)
-}
+return GetLib()
