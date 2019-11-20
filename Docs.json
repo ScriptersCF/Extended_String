@@ -1,0 +1,6 @@
+{
+    "Print": {
+        "Usage": "sample.Print(msg)",
+        "Description": "Prints the provided message."
+    }
+}
