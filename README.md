@@ -1,4 +1,4 @@
-# Extended String Library ![spm | sample](https://img.shields.io/badge/spm-sample-blue)
+# Extended String Library ![spm | string](https://img.shields.io/badge/spm-string-blue)
 An extended string library that can be access via the ScriptersCF Package Manager.
 
 #### Example:
