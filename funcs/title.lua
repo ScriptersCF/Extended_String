@@ -1,9 +1,8 @@
-return function(Text)
-	local TitledString = {}
-	for i, v in pairs(Text:split(" ")) do
-		local Char1 = v:sub(1, 1):upper()
-		local Remainder = v:sub(2):lower()
-		TitledString[#TitledString + 1] = Char1 .. Remainder
-	end
-	return table.concat(TitledString, " ")
+-- According to Josh, I could use this to require a neighbouring function
+local capitalize = require(script.Parent.capitalize)
+
+-- | title | Capitalize each word
+-- %S+ = a word
+return function(text)
+	return text:gsub("%S+", capitalize)
 end
