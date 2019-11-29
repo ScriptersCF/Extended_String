@@ -38,5 +38,9 @@
     "endswith": {
         "Usage": "string.endswith(a, b)",
         "Description": "Returns true/false depending on whether string 'a' ends with substring 'b'"
-    }
+    },
+    "random": {
+        "Usage": "string.random(len[, min=65, max=127])",
+        "Description": "Returns a string of length len, with random characters that fall in the range min, max"
+    },
 }
