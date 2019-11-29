@@ -8,7 +8,7 @@ local char = string.char
 ---@param max number "the maximum ascii value"
 ---@return string "the generated string"
 return function(len, min, max)
-  local ret = {}
+ 	local ret = {}
 	min = min or 65
 	max = max or 127
 	for _ = 1, len do
